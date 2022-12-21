@@ -4,29 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>keat</title>
+    <title>Document</title>
     <style>
         div {
             width: 300px;
             height: 300px;
-            border: 2px solid black;
+            border: 10px solid black;
+            padding: 30px;
         }
         .box1 {
-            float: right;
+            box-sizing: border-box;
         }
         .box2 {
-            float: right;
-        }
-        .box3 {
-            float: right;
+            box-sizing: content-box;
         }
     </style>
-    <!-- 굳이 right xxxx -->
 </head>
 <body>
+    <!-- border-box -->
     <div class="box1">01</div>
+    <!-- content-box -->
     <div class="box2">02</div>
-    <div class="box3">03</div>
 </body>
-<!--     div.box${$$}*3 -->
 </html>
